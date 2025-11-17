@@ -12,16 +12,47 @@ class logger:
     async def start(self, data_func, DB1, DB2,save_db,delete_db):
         self.__save_db = save_db
         self.__delete_db = delete_db
+        db1_flg = False
+        db2_flg = False
+        
         if self.__save_db == "-L": # loggingのみ保存
             self.__DB1 = influxDB(DB1.host, DB1.port, DB1.database, DB1.measurement)
+            db1_flg = True
         elif self.__save_db == "-A":# 集約DBのみ保存
             self.__DB2 = influxDB(DB2.host, DB2.port, DB2.database, DB2.measurement)
+            db2_flg = True
         elif self.__save_db == "-AL":# 両方保存
             self.__DB1 = influxDB(DB1.host, DB1.port, DB1.database, DB1.measurement)
             self.__DB2 = influxDB(DB2.host, DB2.port, DB2.database, DB2.measurement)
+            db1_flg = True
+            db2_flg = True
         elif self.__save_db == "-LA":# 両方保存
             self.__DB1 = influxDB(DB1.host, DB1.port, DB1.database, DB1.measurement)
             self.__DB2 = influxDB(DB2.host, DB2.port, DB2.database, DB2.measurement)
+            db1_flg = True
+            db2_flg = True
+        elif self.__save_db == "-N":# 両方とも削除しない
+            self.__DB1 = influxDB(DB1.host, DB1.port, DB1.database, DB1.measurement)
+            self.__DB2 = influxDB(DB2.host, DB2.port, DB2.database, DB2.measurement)
+            db1_flg = True
+            db2_flg = True
+
+        if db1_flg==False:
+            if self.__delete_db == "-DL":
+                self.__DB1 = influxDB(DB1.host, DB1.port, DB1.database, DB1.measurement)
+            elif self.__delete_db == "-DLA":
+                 self.__DB1 = influxDB(DB1.host, DB1.port, DB1.database, DB1.measurement)
+            elif self.__delete_db == "-DLA":
+                 self.__DB1 = influxDB(DB1.host, DB1.port, DB1.database, DB1.measurement)
+        if db2_flg==False:
+            if self.__delete_db == "-DA":
+                self.__DB1 = influxDB(DB1.host, DB1.port, DB1.database, DB1.measurement)
+            elif self.__delete_db == "-DLA":
+                 self.__DB1 = influxDB(DB1.host, DB1.port, DB1.database, DB1.measurement)
+            elif self.__delete_db == "-DLA":
+                 self.__DB1 = influxDB(DB1.host, DB1.port, DB1.database, DB1.measurement)
+
+
         self.task = asyncio.create_task(self._work(data_func))
         
         
