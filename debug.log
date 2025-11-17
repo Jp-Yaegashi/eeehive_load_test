@@ -140,3 +140,9 @@ RuntimeError: Error getID: 'NoneType' object has no attribute 'in_waiting'
 2025-11-17 14:36:11,622 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
 2025-11-17 14:36:11,622 - INFO - NumExpr defaulting to 8 threads.
 2025-11-17 14:36:11,738 - ERROR - Error open serial connection on /dev/ttyUSB0: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+2025-11-17 17:00:59,724 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-11-17 17:00:59,724 - INFO - NumExpr defaulting to 8 threads.
+2025-11-17 17:00:59,865 - ERROR - Error open serial connection on /dev/ttyUSB0: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+2025-11-17 17:04:39,972 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-11-17 17:04:39,973 - INFO - NumExpr defaulting to 8 threads.
+2025-11-17 17:04:40,087 - ERROR - Error open serial connection on /dev/ttyUSB0: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
