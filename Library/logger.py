@@ -42,12 +42,12 @@ class logger:
                 self.__DB1 = influxDB(DB1.host, DB1.port, DB1.database, DB1.measurement)
             elif self.__delete_db == "-DLA":
                  self.__DB1 = influxDB(DB1.host, DB1.port, DB1.database, DB1.measurement)
-            elif self.__delete_db == "-DLA":
+            elif self.__delete_db == "-DAL":
                  self.__DB1 = influxDB(DB1.host, DB1.port, DB1.database, DB1.measurement)
         if db2_flg==False:
             if self.__delete_db == "-DA":
                 self.__DB1 = influxDB(DB1.host, DB1.port, DB1.database, DB1.measurement)
-            elif self.__delete_db == "-DLA":
+            elif self.__delete_db == "-DAL":
                  self.__DB1 = influxDB(DB1.host, DB1.port, DB1.database, DB1.measurement)
             elif self.__delete_db == "-DLA":
                  self.__DB1 = influxDB(DB1.host, DB1.port, DB1.database, DB1.measurement)
