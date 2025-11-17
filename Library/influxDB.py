@@ -26,7 +26,8 @@ class influxDB:
                 "fields": fields
             }
         ]
-        logging.debug(fields)
+        logging.debug(json_body)
+        #logging.debug(fields)
         try:
             self.__client.write_points(json_body, time_precision='n')
         except (InfluxDBClientError, InfluxDBServerError) as e:
@@ -35,3 +36,9 @@ class influxDB:
             logging.error(f"Connection error with InfluxDB: {e}")
         except Exception as e:
             logging.error(f"Unexpected error writing to InfluxDB: {e}")
+
+    def delete(self):
+        #print("delete")
+        query = 'DELETE FROM ' + self.__measurement
+        self.__client.query(query)
+

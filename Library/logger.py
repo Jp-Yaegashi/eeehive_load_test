@@ -9,9 +9,9 @@ class logger:
         self.__DB2 = None
         self.task = None
 
-    async def start(self, data_func, DB1, DB2,run_time,save_db):
-        self.__run_time = run_time
+    async def start(self, data_func, DB1, DB2,save_db,delete_db):
         self.__save_db = save_db
+        self.__delete_db = delete_db
         if self.__save_db == "-L": # loggingのみ保存
             self.__DB1 = influxDB(DB1.host, DB1.port, DB1.database, DB1.measurement)
         elif self.__save_db == "-A":# 集約DBのみ保存
@@ -23,12 +23,12 @@ class logger:
             self.__DB1 = influxDB(DB1.host, DB1.port, DB1.database, DB1.measurement)
             self.__DB2 = influxDB(DB2.host, DB2.port, DB2.database, DB2.measurement)
         self.task = asyncio.create_task(self._work(data_func))
-        #実施時間
+        
         
         
 
     async def stop(self):
-        print("------stop--------")
+        #print("------stop--------")
         if(self.task):
             self.task.cancel()
             await asyncio.gather(self.task, return_exceptions=True)
@@ -37,9 +37,17 @@ class logger:
 
 
     async def _work(self, data_func):
-        print("------_work--------")
-        print(self.__run_time)
-        print(self.__save_db)
+        #print("------_work--------")
+        if self.__delete_db == "-DL":
+            self.__DB1.delete()
+        elif self.__delete_db == "-DA":
+            self.__DB2.delete()
+        elif self.__delete_db == "-DAL":
+            self.__DB1.delete()
+            self.__DB2.delete()
+        elif self.__delete_db == "-DLA":
+            self.__DB1.delete()
+            self.__DB2.delete()
         
         try:
             while True:

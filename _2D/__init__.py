@@ -6,7 +6,7 @@ from Library.debug import logging
 from Library.device import device
 from Library.serial_handler import serial_handler
 from Library.logger import logger
-from datetime import datetime
+
 
 class _2D(device):
     def __init__(self, config):
@@ -16,16 +16,15 @@ class _2D(device):
         self.__position_ids = []
         self.__reader_ids = []
         self.__loggers: List[logger] = []
-        #実施時間
-        self.__run_time = 0
+       
+        self.__delete_db = ''
         self.__save_db = 0
         
 
 
     async def start(self):
-        print("------start--------")
-        print(self.__run_time)
-        print(self.__save_db)
+        #print("------start--------")
+       
         if(self.__loggers):
             await self.stop()
             await asyncio.sleep(0.5)
@@ -43,10 +42,9 @@ class _2D(device):
         self.__loggers.clear()
         for ser, reader_id, position_id in zip(self.__sers, self.__reader_ids, self.__position_ids):
             self.__loggers.append(logger())
-            await self.__loggers[-1].start(functools.partial(self._make_2D_data, ser, reader_id, position_id), DB1, DB2,self.__run_time,self.__save_db)
+            await self.__loggers[-1].start(functools.partial(self._make_2D_data, ser, reader_id, position_id), DB1, DB2,self.__save_db,self.__delete_db)
         logging.debug(f"start_2D")
-        now = datetime.now()
-        print(now.strftime("%Y-%m-%d %H:%M:%S"))
+        
 
         
     async def stop(self):
@@ -62,9 +60,7 @@ class _2D(device):
         logging.debug(f"stop_2D")
 
     async def reset(self):
-        print("------reset--------")
-        print(self.__run_time)
-        print(self.__save_db)
+        #print("------reset--------")
         if(self.__loggers):
             await self.stop()
             await asyncio.sleep(0.5)
@@ -76,15 +72,15 @@ class _2D(device):
             ser.read(b'>')
         logging.debug(f"reset_2D")
 
-    def _set_pra_run_time(self,run_time):
-        print("------_set_pra_run_time--------")
-        self.__run_time = run_time
-        print(self.__run_time)
+    def _set_pra_delete_db(self,delete_db):
+        #print("------_set_pra_delete_db--------")
+        self.__delete_db = delete_db
+        #print(self.__delete_db)
     
     def _set_pra_db(self,save_db):
-        print("------_set_pra_db--------")
+        #print("------_set_pra_db--------")
         self.__save_db = save_db
-        print(self.__save_db)
+        #print(self.__save_db)
 
     def _ser_open(self):
         self.__sers.clear()
