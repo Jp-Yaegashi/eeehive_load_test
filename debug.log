@@ -106,3 +106,37 @@
 2025-11-17 13:57:31,955 - INFO - Write serial connection on /dev/ttyUSB0 to b'run\r'.
 2025-11-17 13:58:31,432 - INFO - ---------タグ検証終了しました---------
 2025-11-17 13:58:31,432 - INFO - DB processing was cancelled.
+2025-11-17 14:34:58,113 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-11-17 14:34:58,113 - INFO - NumExpr defaulting to 8 threads.
+2025-11-17 14:34:58,240 - ERROR - Error open serial connection on /dev/ttyUSB0: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+2025-11-17 14:34:58,240 - ERROR - Error write serial connection on /dev/ttyUSB0 to b'reset\r': 'NoneType' object has no attribute 'write'
+2025-11-17 14:35:04,245 - ERROR - Error read serial connection on /dev/ttyUSB0: 'NoneType' object has no attribute 'in_waiting'
+2025-11-17 14:35:04,245 - INFO - ---------タグ検証開始します---------
+2025-11-17 14:35:04,245 - INFO - ---------処理実施時間：1分
+2025-11-17 14:35:04,246 - ERROR - Error open serial connection on /dev/ttyUSB0: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+2025-11-17 14:35:04,247 - ERROR - Error read serial connection on /dev/ttyUSB0: 'NoneType' object has no attribute 'in_waiting'
+2025-11-17 14:35:04,247 - ERROR - Error write serial connection on /dev/ttyUSB0 to b'id\r': 'NoneType' object has no attribute 'write'
+2025-11-17 14:35:04,747 - ERROR - Error sending id command: 'NoneType' object has no attribute 'in_waiting'
+2025-11-17 14:35:52,771 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<_2D.start() done, defined at /home/agg-1/Load_Testing_Program/_2D/__init__.py:25> exception=RuntimeError("Error getID: 'NoneType' object has no attribute 'in_waiting'")>
+Traceback (most recent call last):
+  File "/home/agg-1/Load_Testing_Program/Library/device.py", line 17, in get_ID
+    if ser.ser.in_waiting > 0:
+       ^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'in_waiting'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/agg-1/Load_Testing_Program/_2D/__init__.py", line 34, in start
+    self.__reader_ids = await asyncio.gather(*[
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/agg-1/Load_Testing_Program/Library/device.py", line 35, in get_ID
+    raise RuntimeError(f"Error getID: {e}")
+RuntimeError: Error getID: 'NoneType' object has no attribute 'in_waiting'
+2025-11-17 14:35:54,124 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-11-17 14:35:54,124 - INFO - NumExpr defaulting to 8 threads.
+2025-11-17 14:35:54,249 - ERROR - Error open serial connection on /dev/ttyUSB0: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+2025-11-17 14:36:11,622 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-11-17 14:36:11,622 - INFO - NumExpr defaulting to 8 threads.
+2025-11-17 14:36:11,738 - ERROR - Error open serial connection on /dev/ttyUSB0: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'

@@ -11,8 +11,19 @@ import asyncio
 import time
 from datetime import datetime
 from Library.debug import logging
+import subprocess
 
 device = None
+
+def stop_service(service_name):
+    try:
+        subprocess.run(
+            ["sudo", "systemctl", "stop", service_name],
+            check=True
+        )
+        print(f"サービス '{service_name}' を停止しました。")
+    except subprocess.CalledProcessError:
+        print(f"サービス '{service_name}' の停止に失敗しました。")
 
 async def main():
     run_time = 0
@@ -77,6 +88,8 @@ async def main():
             print('Error:DB保存パラメータエラー')
             sys.exit(1)
 
+        stop_service("myapi")
+        
         print("---------集約PC側のサービスを停止してください。---------")       
         await device.reset()
         

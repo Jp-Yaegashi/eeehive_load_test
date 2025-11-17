@@ -60,9 +60,9 @@ python3  test_program.py 60 -N -AL
 ## 2-6. ロギング部 & 集約部　既存データを削除後、<br>60分間タグ検知データをロギング部 & 集約部に保存したい場合
 ```
 cd ~/eeehive_load_test
-python3  test_program.py 60 -D -LA
+python3  test_program.py 60 -DAL -LA
 or 
-python3  test_program.py 60 -D -AL
+python3  test_program.py 60 -DLA -AL
 
 ```
 

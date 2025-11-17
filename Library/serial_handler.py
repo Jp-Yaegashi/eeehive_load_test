@@ -1,5 +1,6 @@
 
 import serial
+import sys
 from Library.debug import logging
 
 class serial_handler:
@@ -16,6 +17,7 @@ class serial_handler:
         except serial.SerialException as e:
             print(f"Error open serial connection on {self.port}: {e}")
             logging.error(f"Error open serial connection on {self.port}: {e}")
+            sys.exit(1)
 
     def close(self):
         try:
