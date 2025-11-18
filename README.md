@@ -5,6 +5,7 @@
 cd ~
 git clone https://github.com/Jp-Yaegashi/eeehive_load_test.git
 cd eeehive_load_test
+echo 'source /home/log-1/venv/bin/activate' >> ~/.bashrc
 ```
 ### 1-2. 集約部側
 ```
@@ -73,4 +74,19 @@ influx
 use "eeeHiveSystemDB"
 precision rfc3339
 SELECT COUNT(*) FROM time_data_2d_table1
+```
+
+# 4. ディスクIO及びCPU使用率を確認したい(1秒間隔で確認)
+```
+vmstat 1
+```
+wa:  ディスクIO
+
+vmstatコマンドの結果のcpuの項目（us、sy、id、wa、st）を足すと100になります。
+
+CPU使用率（%）:100 － idの値
+
+## 4-1. vmstatコマンドの実行結果に「時刻」を付けて表示させる場合
+```
+vmstat 1 | awk '{ print strftime("%Y/%m/%d %H:%M:%S"), $0 }'
 ```
