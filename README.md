@@ -6,6 +6,7 @@ cd ~
 git clone https://github.com/Jp-Yaegashi/eeehive_load_test.git
 cd eeehive_load_test
 echo 'source /home/log-1/venv/bin/activate' >> ~/.bashrc
+. ~/.bashrc
 ```
 ### 1-2. 集約部側
 ```
@@ -18,6 +19,8 @@ cd eeehive_load_test
 # 2. 環境構築後、本プログラム実施したい場合
 ## 2-1. 集約部のサービス全て停止する
 ```
+git fetch origin main
+git reset --hard origin/main
 sh stop_service.sh
 ```
 
@@ -50,7 +53,7 @@ python3  test_program.py 10 -N -A
 
 ## 2-5. ロギング部 & 集約部　既存データを削除せず、<br>60分間タグ検知データをロギング部 & 集約部に保存したい場合
 ```
-cd ~/eeehive_load_test
+git reset --hard origin/main
 python3  test_program.py 60 -N -LA
 or 
 python3  test_program.py 60 -N -AL
