@@ -91,5 +91,5 @@ CPU使用率（%）:100 － idの値
 
 ## 4-1. vmstatコマンドの実行結果に「時刻」を付けて表示させる場合
 ```
-vmstat 1 | awk '{ print strftime("%Y/%m/%d %H:%M:%S"), $0 }'
+vmstat 1 | ts '%Y-%m-%d %H:%M:%S'
 ```
