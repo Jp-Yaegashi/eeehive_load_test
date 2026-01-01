@@ -28,8 +28,8 @@ def stop_service(service_name):
 async def main():
     run_time = 0
     args = sys.argv
-    cmd = "source /home/log-1/venv/bin/activate"
-    subprocess.run(cmd, shell=True, executable="/bin/bash")
+    #cmd = "source /home/agg-1/venv/bin/activate"
+    #subprocess.run(cmd, shell=True, executable="/bin/bash")
     
     
     if 4 <= len(args):

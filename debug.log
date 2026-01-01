@@ -1,159 +1,829 @@
-2025-11-17 12:11:33,030 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
-2025-11-17 12:11:33,030 - INFO - NumExpr defaulting to 8 threads.
-2025-11-17 12:11:33,160 - INFO - Open serial connection  on /dev/ttyUSB0.
-2025-11-17 12:11:33,160 - INFO - Write serial connection on /dev/ttyUSB0 to b'reset\r'.
-2025-11-17 12:11:39,167 - INFO - ---------タグ検証開始します---------
-2025-11-17 12:11:39,167 - INFO - ---------処理実施時間(分)：1
-2025-11-17 12:11:39,189 - INFO - Open serial connection  on /dev/ttyUSB0.
-2025-11-17 12:11:39,190 - INFO - Write serial connection on /dev/ttyUSB0 to b'id\r'.
-2025-11-17 12:11:39,691 - INFO - Reader ID for port /dev/ttyUSB0: 2d_1
-2025-11-17 12:11:39,691 - INFO - Write serial connection on /dev/ttyUSB0 to b'run\r'.
-2025-11-17 12:12:39,168 - INFO - ---------タグ検証終了しました---------
-2025-11-17 12:12:39,168 - INFO - DB processing was cancelled.
-2025-11-17 12:16:14,518 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
-2025-11-17 12:16:14,518 - INFO - NumExpr defaulting to 8 threads.
-2025-11-17 12:16:14,655 - INFO - Open serial connection  on /dev/ttyUSB0.
-2025-11-17 12:16:14,655 - INFO - Write serial connection on /dev/ttyUSB0 to b'reset\r'.
-2025-11-17 12:16:20,661 - INFO - ---------タグ検証開始します---------
-2025-11-17 12:16:20,661 - INFO - ---------処理実施時間(分)：1
-2025-11-17 12:16:20,684 - INFO - Open serial connection  on /dev/ttyUSB0.
-2025-11-17 12:16:20,686 - INFO - Write serial connection on /dev/ttyUSB0 to b'id\r'.
-2025-11-17 12:16:21,187 - INFO - Reader ID for port /dev/ttyUSB0: 2d_1
-2025-11-17 12:16:21,188 - INFO - Write serial connection on /dev/ttyUSB0 to b'run\r'.
-2025-11-17 12:17:20,662 - INFO - ---------タグ検証終了しました---------
-2025-11-17 12:17:20,668 - INFO - DB processing was cancelled.
-2025-11-17 12:20:46,785 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
-2025-11-17 12:20:46,785 - INFO - NumExpr defaulting to 8 threads.
-2025-11-17 12:20:46,909 - INFO - Open serial connection  on /dev/ttyUSB0.
-2025-11-17 12:20:46,910 - INFO - Write serial connection on /dev/ttyUSB0 to b'reset\r'.
-2025-11-17 12:20:52,916 - INFO - ---------タグ検証開始します---------
-2025-11-17 12:20:52,916 - INFO - ---------処理実施時間(分)：1
-2025-11-17 12:20:52,938 - INFO - Open serial connection  on /dev/ttyUSB0.
-2025-11-17 12:20:52,939 - INFO - Write serial connection on /dev/ttyUSB0 to b'id\r'.
-2025-11-17 12:20:53,440 - INFO - Reader ID for port /dev/ttyUSB0: 2d_1
-2025-11-17 12:20:53,440 - INFO - Write serial connection on /dev/ttyUSB0 to b'run\r'.
-2025-11-17 12:21:52,917 - INFO - ---------タグ検証終了しました---------
-2025-11-17 12:21:52,918 - INFO - DB processing was cancelled.
-2025-11-17 12:25:20,523 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
-2025-11-17 12:25:20,524 - INFO - NumExpr defaulting to 8 threads.
-2025-11-17 12:25:20,649 - INFO - Open serial connection  on /dev/ttyUSB0.
-2025-11-17 12:25:20,650 - INFO - Write serial connection on /dev/ttyUSB0 to b'reset\r'.
-2025-11-17 12:25:26,658 - INFO - ---------タグ検証開始します---------
-2025-11-17 12:25:26,658 - INFO - ---------処理実施時間(分)：1
-2025-11-17 12:25:26,680 - INFO - Open serial connection  on /dev/ttyUSB0.
-2025-11-17 12:25:26,681 - INFO - Write serial connection on /dev/ttyUSB0 to b'id\r'.
-2025-11-17 12:25:27,182 - INFO - Reader ID for port /dev/ttyUSB0: 2d_1
-2025-11-17 12:25:27,182 - INFO - Write serial connection on /dev/ttyUSB0 to b'run\r'.
-2025-11-17 12:26:26,659 - INFO - ---------タグ検証終了しました---------
-2025-11-17 12:26:26,659 - INFO - DB processing was cancelled.
-2025-11-17 12:26:56,136 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
-2025-11-17 12:26:56,136 - INFO - NumExpr defaulting to 8 threads.
-2025-11-17 12:26:56,270 - INFO - Open serial connection  on /dev/ttyUSB0.
-2025-11-17 12:26:56,271 - INFO - Write serial connection on /dev/ttyUSB0 to b'reset\r'.
-2025-11-17 12:27:02,278 - INFO - ---------タグ検証開始します---------
-2025-11-17 12:27:02,278 - INFO - ---------処理実施時間：1分
-2025-11-17 12:27:02,300 - INFO - Open serial connection  on /dev/ttyUSB0.
-2025-11-17 12:27:02,302 - INFO - Write serial connection on /dev/ttyUSB0 to b'id\r'.
-2025-11-17 12:27:02,802 - INFO - Reader ID for port /dev/ttyUSB0: 2d_1
-2025-11-17 12:27:02,803 - INFO - Write serial connection on /dev/ttyUSB0 to b'run\r'.
-2025-11-17 12:28:02,279 - INFO - ---------タグ検証終了しました---------
-2025-11-17 12:28:02,279 - INFO - DB processing was cancelled.
-2025-11-17 13:52:02,201 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
-2025-11-17 13:52:02,202 - INFO - NumExpr defaulting to 8 threads.
-2025-11-17 13:52:12,664 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
-2025-11-17 13:52:12,664 - INFO - NumExpr defaulting to 8 threads.
-2025-11-17 13:52:12,775 - INFO - Open serial connection  on /dev/ttyUSB0.
-2025-11-17 13:52:12,775 - INFO - Write serial connection on /dev/ttyUSB0 to b'reset\r'.
-2025-11-17 13:52:18,781 - INFO - ---------タグ検証開始します---------
-2025-11-17 13:52:18,781 - INFO - ---------処理実施時間：1分
-2025-11-17 13:52:18,803 - INFO - Open serial connection  on /dev/ttyUSB0.
-2025-11-17 13:52:18,804 - INFO - Write serial connection on /dev/ttyUSB0 to b'id\r'.
-2025-11-17 13:52:19,305 - INFO - Reader ID for port /dev/ttyUSB0: 2d_1
-2025-11-17 13:52:19,305 - INFO - Write serial connection on /dev/ttyUSB0 to b'run\r'.
-2025-11-17 13:53:18,782 - INFO - ---------タグ検証終了しました---------
-2025-11-17 13:53:18,782 - INFO - DB processing was cancelled.
-2025-11-17 13:55:56,234 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
-2025-11-17 13:55:56,234 - INFO - NumExpr defaulting to 8 threads.
-2025-11-17 13:55:56,346 - INFO - Open serial connection  on /dev/ttyUSB0.
-2025-11-17 13:55:56,347 - INFO - Write serial connection on /dev/ttyUSB0 to b'reset\r'.
-2025-11-17 13:56:02,353 - INFO - ---------タグ検証開始します---------
-2025-11-17 13:56:02,353 - INFO - ---------処理実施時間：1分
-2025-11-17 13:56:02,375 - INFO - Open serial connection  on /dev/ttyUSB0.
-2025-11-17 13:56:02,377 - INFO - Write serial connection on /dev/ttyUSB0 to b'id\r'.
-2025-11-17 13:56:02,878 - INFO - Reader ID for port /dev/ttyUSB0: 2d_1
-2025-11-17 13:56:02,878 - INFO - Write serial connection on /dev/ttyUSB0 to b'run\r'.
-2025-11-17 13:56:32,732 - INFO - DB processing was cancelled.
-2025-11-17 13:56:33,844 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
-2025-11-17 13:56:33,844 - INFO - NumExpr defaulting to 8 threads.
-2025-11-17 13:56:33,964 - INFO - Open serial connection  on /dev/ttyUSB0.
-2025-11-17 13:56:33,964 - INFO - Write serial connection on /dev/ttyUSB0 to b'reset\r'.
-2025-11-17 13:56:39,970 - INFO - ---------タグ検証開始します---------
-2025-11-17 13:56:39,970 - INFO - ---------処理実施時間：1分
-2025-11-17 13:56:39,992 - INFO - Open serial connection  on /dev/ttyUSB0.
-2025-11-17 13:56:39,993 - INFO - Write serial connection on /dev/ttyUSB0 to b'id\r'.
-2025-11-17 13:56:40,494 - INFO - Reader ID for port /dev/ttyUSB0: 2d_1
-2025-11-17 13:56:40,494 - INFO - Write serial connection on /dev/ttyUSB0 to b'run\r'.
-2025-11-17 13:57:24,247 - INFO - DB processing was cancelled.
-2025-11-17 13:57:25,300 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
-2025-11-17 13:57:25,300 - INFO - NumExpr defaulting to 8 threads.
-2025-11-17 13:57:25,425 - INFO - Open serial connection  on /dev/ttyUSB0.
-2025-11-17 13:57:25,425 - INFO - Write serial connection on /dev/ttyUSB0 to b'reset\r'.
-2025-11-17 13:57:31,431 - INFO - ---------タグ検証開始します---------
-2025-11-17 13:57:31,431 - INFO - ---------処理実施時間：1分
-2025-11-17 13:57:31,453 - INFO - Open serial connection  on /dev/ttyUSB0.
-2025-11-17 13:57:31,454 - INFO - Write serial connection on /dev/ttyUSB0 to b'id\r'.
-2025-11-17 13:57:31,955 - INFO - Reader ID for port /dev/ttyUSB0: 2d_1
-2025-11-17 13:57:31,955 - INFO - Write serial connection on /dev/ttyUSB0 to b'run\r'.
-2025-11-17 13:58:31,432 - INFO - ---------タグ検証終了しました---------
-2025-11-17 13:58:31,432 - INFO - DB processing was cancelled.
-2025-11-17 14:34:58,113 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
-2025-11-17 14:34:58,113 - INFO - NumExpr defaulting to 8 threads.
-2025-11-17 14:34:58,240 - ERROR - Error open serial connection on /dev/ttyUSB0: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
-2025-11-17 14:34:58,240 - ERROR - Error write serial connection on /dev/ttyUSB0 to b'reset\r': 'NoneType' object has no attribute 'write'
-2025-11-17 14:35:04,245 - ERROR - Error read serial connection on /dev/ttyUSB0: 'NoneType' object has no attribute 'in_waiting'
-2025-11-17 14:35:04,245 - INFO - ---------タグ検証開始します---------
-2025-11-17 14:35:04,245 - INFO - ---------処理実施時間：1分
-2025-11-17 14:35:04,246 - ERROR - Error open serial connection on /dev/ttyUSB0: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
-2025-11-17 14:35:04,247 - ERROR - Error read serial connection on /dev/ttyUSB0: 'NoneType' object has no attribute 'in_waiting'
-2025-11-17 14:35:04,247 - ERROR - Error write serial connection on /dev/ttyUSB0 to b'id\r': 'NoneType' object has no attribute 'write'
-2025-11-17 14:35:04,747 - ERROR - Error sending id command: 'NoneType' object has no attribute 'in_waiting'
-2025-11-17 14:35:52,771 - ERROR - Task exception was never retrieved
-future: <Task finished name='Task-2' coro=<_2D.start() done, defined at /home/agg-1/Load_Testing_Program/_2D/__init__.py:25> exception=RuntimeError("Error getID: 'NoneType' object has no attribute 'in_waiting'")>
+2026-01-01 20:10:47,304 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-01-01 20:10:47,304 - INFO - NumExpr defaulting to 8 threads.
+2026-01-01 20:11:28,276 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-01-01 20:11:28,276 - INFO - NumExpr defaulting to 8 threads.
+2026-01-01 20:14:36,678 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-01-01 20:14:36,678 - INFO - NumExpr defaulting to 8 threads.
+2026-01-01 20:15:16,517 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-01-01 20:15:16,517 - INFO - NumExpr defaulting to 8 threads.
+2026-01-01 20:16:03,109 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-01-01 20:16:03,109 - INFO - NumExpr defaulting to 8 threads.
+2026-01-01 20:16:03,230 - INFO - Open serial connection  on /dev/ttyUSB0.
+2026-01-01 20:16:03,231 - ERROR - Error open serial connection on /dev/ttyUSB1: [Errno 2] could not open port /dev/ttyUSB1: [Errno 2] No such file or directory: '/dev/ttyUSB1'
+2026-01-01 20:37:27,838 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-01-01 20:37:27,838 - INFO - NumExpr defaulting to 8 threads.
+2026-01-01 20:37:27,950 - INFO - Open serial connection  on /dev/ttyUSB0.
+2026-01-01 20:37:27,968 - INFO - Open serial connection  on /dev/ttyUSB1.
+2026-01-01 20:37:27,968 - INFO - Write serial connection on /dev/ttyUSB0 to b'reset\r'.
+2026-01-01 20:37:27,968 - INFO - Write serial connection on /dev/ttyUSB1 to b'reset\r'.
+2026-01-01 20:37:33,977 - INFO - ---------タグ検証開始します---------
+2026-01-01 20:37:33,977 - INFO - ---------処理実施時間：1分
+2026-01-01 20:37:34,006 - INFO - Open serial connection  on /dev/ttyUSB0.
+2026-01-01 20:37:34,022 - INFO - Open serial connection  on /dev/ttyUSB1.
+2026-01-01 20:37:34,023 - INFO - Write serial connection on /dev/ttyUSB0 to b'id\r'.
+2026-01-01 20:37:34,023 - INFO - Write serial connection on /dev/ttyUSB1 to b'id\r'.
+2026-01-01 20:37:34,524 - INFO - Reader ID for port /dev/ttyUSB0: 2d_2
+2026-01-01 20:37:34,525 - INFO - Reader ID for port /dev/ttyUSB1: 2d_1
+2026-01-01 20:37:34,525 - INFO - Write serial connection on /dev/ttyUSB0 to b'run\r'.
+2026-01-01 20:37:34,525 - INFO - Write serial connection on /dev/ttyUSB1 to b'run\r'.
+2026-01-01 20:37:37,632 - ERROR - Error connecting to InfluxDB: HTTPConnectionPool(host='10.17.10.2', port=8086): Max retries exceeded with url: /ping (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7186031b5df0>, 'Connection to 10.17.10.2 timed out. (connect timeout=1)'))
+2026-01-01 20:37:37,651 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<_2D.start() done, defined at /home/agg-1/Load_Testing_Program/_2D/__init__.py:25> exception=SystemExit(1)>
 Traceback (most recent call last):
-  File "/home/agg-1/Load_Testing_Program/Library/device.py", line 17, in get_ID
-    if ser.ser.in_waiting > 0:
-       ^^^^^^^^^^^^^^^^^^
-AttributeError: 'NoneType' object has no attribute 'in_waiting'
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 203, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 791, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 497, in _make_request
+    conn.request(
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 395, in request
+    self.endheaders()
+  File "/usr/lib/python3.12/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1091, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.12/http/client.py", line 1035, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 243, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 212, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7186031b5df0>, 'Connection to 10.17.10.2 timed out. (connect timeout=1)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 845, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 517, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='10.17.10.2', port=8086): Max retries exceeded with url: /ping (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7186031b5df0>, 'Connection to 10.17.10.2 timed out. (connect timeout=1)'))
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/home/agg-1/Load_Testing_Program/_2D/__init__.py", line 34, in start
-    self.__reader_ids = await asyncio.gather(*[
-                        ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/agg-1/Load_Testing_Program/Library/device.py", line 35, in get_ID
-    raise RuntimeError(f"Error getID: {e}")
-RuntimeError: Error getID: 'NoneType' object has no attribute 'in_waiting'
-2025-11-17 14:35:54,124 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
-2025-11-17 14:35:54,124 - INFO - NumExpr defaulting to 8 threads.
-2025-11-17 14:35:54,249 - ERROR - Error open serial connection on /dev/ttyUSB0: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
-2025-11-17 14:36:11,622 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
-2025-11-17 14:36:11,622 - INFO - NumExpr defaulting to 8 threads.
-2025-11-17 14:36:11,738 - ERROR - Error open serial connection on /dev/ttyUSB0: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
-2025-11-17 17:00:59,724 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
-2025-11-17 17:00:59,724 - INFO - NumExpr defaulting to 8 threads.
-2025-11-17 17:00:59,865 - ERROR - Error open serial connection on /dev/ttyUSB0: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
-2025-11-17 17:04:39,972 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
-2025-11-17 17:04:39,973 - INFO - NumExpr defaulting to 8 threads.
-2025-11-17 17:04:40,087 - ERROR - Error open serial connection on /dev/ttyUSB0: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
-2025-11-17 17:30:08,729 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
-2025-11-17 17:30:08,729 - INFO - NumExpr defaulting to 8 threads.
-2025-11-17 17:33:19,239 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
-2025-11-17 17:33:19,239 - INFO - NumExpr defaulting to 8 threads.
-2025-11-17 17:33:19,373 - ERROR - Error open serial connection on /dev/ttyUSB0: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
-2025-11-17 17:52:33,598 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
-2025-11-17 17:52:33,598 - INFO - NumExpr defaulting to 8 threads.
-2025-11-17 17:52:33,713 - ERROR - Error open serial connection on /dev/ttyUSB0: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
-2025-11-19 12:20:54,361 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
-2025-11-19 12:20:54,361 - INFO - NumExpr defaulting to 8 threads.
-2025-11-19 12:20:54,465 - ERROR - Error open serial connection on /dev/ttyUSB0: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+  File "/home/agg-1/Load_Testing_Program/Library/influxDB.py", line 16, in __init__
+    self.__client.ping()
+  File "/usr/lib/python3/dist-packages/influxdb/client.py", line 615, in ping
+    response = self.request(
+               ^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/influxdb/client.py", line 332, in request
+    response = self._session.request(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 507, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='10.17.10.2', port=8086): Max retries exceeded with url: /ping (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7186031b5df0>, 'Connection to 10.17.10.2 timed out. (connect timeout=1)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/agg-1/Load_Testing_Program/test_program.py", line 128, in <module>
+    asyncio.run(main())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 641, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 1987, in _run_once
+    handle._run()
+  File "/usr/lib/python3.12/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/agg-1/Load_Testing_Program/_2D/__init__.py", line 45, in start
+    await self.__loggers[-1].start(functools.partial(self._make_2D_data, ser, reader_id, position_id), DB1, DB2,self.__save_db,self.__delete_db)
+  File "/home/agg-1/Load_Testing_Program/Library/logger.py", line 22, in start
+    self.__DB2 = influxDB(DB2.host, DB2.port, DB2.database, DB2.measurement)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/agg-1/Load_Testing_Program/Library/influxDB.py", line 21, in __init__
+    sys.exit(1)
+SystemExit: 1
+2026-01-01 22:41:26,692 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-01-01 22:41:26,692 - INFO - NumExpr defaulting to 8 threads.
+2026-01-01 22:41:53,738 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-01-01 22:41:53,739 - INFO - NumExpr defaulting to 8 threads.
+2026-01-01 22:41:53,855 - INFO - Open serial connection  on /dev/ttyUSB0.
+2026-01-01 22:41:53,871 - INFO - Open serial connection  on /dev/ttyUSB1.
+2026-01-01 22:41:53,872 - INFO - Write serial connection on /dev/ttyUSB0 to b'reset\r'.
+2026-01-01 22:41:53,872 - INFO - Write serial connection on /dev/ttyUSB1 to b'reset\r'.
+2026-01-01 22:41:59,881 - INFO - ---------タグ検証開始します---------
+2026-01-01 22:41:59,881 - INFO - ---------処理実施時間：1分
+2026-01-01 22:41:59,909 - INFO - Open serial connection  on /dev/ttyUSB0.
+2026-01-01 22:41:59,925 - INFO - Open serial connection  on /dev/ttyUSB1.
+2026-01-01 22:41:59,927 - INFO - Write serial connection on /dev/ttyUSB0 to b'id\r'.
+2026-01-01 22:41:59,927 - INFO - Write serial connection on /dev/ttyUSB1 to b'id\r'.
+2026-01-01 22:42:00,428 - INFO - Reader ID for port /dev/ttyUSB0: 2d_2
+2026-01-01 22:42:00,428 - INFO - Reader ID for port /dev/ttyUSB1: 2d_1
+2026-01-01 22:42:00,428 - INFO - Write serial connection on /dev/ttyUSB0 to b'run\r'.
+2026-01-01 22:42:00,428 - INFO - Write serial connection on /dev/ttyUSB1 to b'run\r'.
+2026-01-01 22:42:59,882 - INFO - ---------タグ検証終了しました---------
+2026-01-01 22:42:59,883 - INFO - DB processing was cancelled.
+2026-01-01 22:42:59,883 - INFO - DB processing was cancelled.
+2026-01-01 22:44:20,678 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-01-01 22:44:20,678 - INFO - NumExpr defaulting to 8 threads.
+2026-01-01 22:44:20,763 - DEBUG - Using selector: EpollSelector
+2026-01-01 22:44:20,791 - INFO - Open serial connection  on /dev/ttyUSB0.
+2026-01-01 22:44:20,808 - INFO - Open serial connection  on /dev/ttyUSB1.
+2026-01-01 22:44:20,808 - INFO - Write serial connection on /dev/ttyUSB0 to b'reset\r'.
+2026-01-01 22:44:20,808 - INFO - Write serial connection on /dev/ttyUSB1 to b'reset\r'.
+2026-01-01 22:44:26,816 - DEBUG - reset_2D
+2026-01-01 22:44:26,816 - INFO - ---------タグ検証開始します---------
+2026-01-01 22:44:26,816 - INFO - ---------処理実施時間：1分
+2026-01-01 22:44:26,845 - INFO - Open serial connection  on /dev/ttyUSB0.
+2026-01-01 22:44:26,862 - INFO - Open serial connection  on /dev/ttyUSB1.
+2026-01-01 22:44:26,863 - INFO - Write serial connection on /dev/ttyUSB0 to b'id\r'.
+2026-01-01 22:44:26,863 - INFO - Write serial connection on /dev/ttyUSB1 to b'id\r'.
+2026-01-01 22:44:27,364 - INFO - Reader ID for port /dev/ttyUSB0: 2d_2
+2026-01-01 22:44:27,365 - INFO - Reader ID for port /dev/ttyUSB1: 2d_1
+2026-01-01 22:44:27,365 - INFO - Write serial connection on /dev/ttyUSB0 to b'run\r'.
+2026-01-01 22:44:27,365 - INFO - Write serial connection on /dev/ttyUSB1 to b'run\r'.
+2026-01-01 22:44:27,467 - DEBUG - Starting new HTTP connection (1): localhost:8086
+2026-01-01 22:44:27,469 - DEBUG - http://localhost:8086 "GET /ping HTTP/1.1" 204 0
+2026-01-01 22:44:27,470 - DEBUG - Starting new HTTP connection (1): localhost:8086
+2026-01-01 22:44:27,470 - DEBUG - http://localhost:8086 "GET /ping HTTP/1.1" 204 0
+2026-01-01 22:44:27,470 - DEBUG - start_2D
+2026-01-01 22:44:27,470 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275067470774784, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:27,475 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:27,678 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275067678232064, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:27,683 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:27,885 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275067885379072, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:27,891 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:27,992 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275067992911104, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:28,005 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:28,209 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275068209413888, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:28,215 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:28,419 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275068419802880, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:28,426 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:28,629 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275068629897984, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:28,637 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:28,739 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275068738974976, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:28,745 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:28,947 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275068947448064, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:28,953 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:29,156 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275069156236032, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:29,162 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:29,271 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275069271766016, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:29,278 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:29,481 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275069481470208, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:29,488 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:29,691 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275069691393024, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:29,698 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:29,901 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275069901172992, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:29,908 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:30,008 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275070008672000, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:30,016 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:30,218 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275070218267904, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:30,225 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:30,426 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275070426536960, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:30,432 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:30,634 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275070634657024, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:30,641 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:30,742 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275070742507008, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:30,751 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:30,953 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275070953774080, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:30,960 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:31,161 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275071161662208, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:31,167 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:31,268 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275071268079872, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:31,275 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:31,477 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275071477253888, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:31,483 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:31,685 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275071685592832, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:31,692 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:31,893 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275071893868800, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:31,900 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:32,001 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275072001822976, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:32,008 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:32,209 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275072209917952, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:32,216 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:32,417 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275072417480960, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:32,423 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:32,538 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275072538466816, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:32,544 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:32,746 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275072746263040, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:32,753 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:32,955 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275072955279104, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:32,961 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:33,164 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275073164210944, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:33,171 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:33,272 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275073272728064, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:33,286 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:33,487 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275073487045120, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:33,493 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:33,695 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275073695641088, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:33,702 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:33,803 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275073803802880, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:33,813 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:34,014 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275074014803968, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:34,020 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:34,222 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275074222373120, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:34,228 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:34,430 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275074430056960, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:34,437 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:34,538 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275074538842880, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:34,549 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:34,751 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275074751456000, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:34,758 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:34,960 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275074960470016, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:34,966 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:35,067 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275075067790080, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:35,080 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:35,281 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275075281553920, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:35,287 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:35,489 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275075489474048, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:35,496 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:35,697 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275075697530880, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:35,703 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:35,804 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275075804925952, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:35,816 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:36,018 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275076018598912, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:36,025 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:36,227 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275076227292160, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:36,234 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:36,335 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275076335467008, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:36,346 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:36,548 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275076548576000, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:36,555 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:36,757 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275076757384960, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:36,763 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:36,965 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275076965567232, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:36,971 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:37,073 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275077073189120, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:37,079 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:37,280 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275077280830976, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:37,287 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:37,489 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275077489475072, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:37,495 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:37,697 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275077697488128, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:37,703 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:37,804 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275077804510208, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:37,812 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:38,013 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275078013335040, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:38,018 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:38,220 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275078220464896, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:38,226 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:38,427 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275078427926016, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:38,434 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:38,535 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275078535512064, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:38,552 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:38,753 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275078753798912, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:38,760 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:38,961 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275078961883904, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:38,968 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:39,069 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275079069715968, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:39,078 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:39,280 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275079280569088, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:39,287 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:39,489 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275079489111808, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:39,495 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:39,696 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275079696907008, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:39,703 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:39,804 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275079804462848, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:39,814 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:40,016 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275080016158208, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:40,021 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:40,222 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275080222852096, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:40,228 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:40,329 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275080329894912, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:40,343 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:40,544 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275080544898048, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:40,551 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:40,752 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275080752883968, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:40,759 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:40,961 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275080961843968, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:40,968 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:41,069 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275081069096960, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:41,081 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:41,283 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275081283323904, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:41,289 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:41,491 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275081491416832, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:41,497 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:41,599 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275081599808000, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:41,612 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:41,814 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275081814605824, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:41,821 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:42,023 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275082023298048, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:42,030 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:42,143 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275082143884800, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:42,151 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:42,352 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275082352526848, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:42,357 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:42,559 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275082559129856, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:42,566 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:42,767 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275082767239936, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:42,774 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:42,875 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275082875160064, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:42,880 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:43,082 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275083082420992, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:43,087 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:43,290 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275083290166016, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:43,297 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:43,499 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275083499258880, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:43,505 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:43,606 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275083606654976, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:43,612 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:43,814 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275083814352128, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:43,821 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:44,022 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275084022348032, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:44,028 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:44,129 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275084129751040, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:44,138 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:44,340 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275084340679936, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:44,346 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:44,548 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275084548752128, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:44,555 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:44,756 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275084756233984, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:44,762 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:44,863 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275084863642880, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:44,870 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:45,071 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275085071883008, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:45,078 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:45,280 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275085280391936, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:45,286 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:45,488 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275085488257792, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:45,494 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:45,595 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275085594952960, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:45,607 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:45,809 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275085809176064, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:45,815 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:46,017 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275086017599232, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:46,024 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:46,129 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275086129832960, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:46,135 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:46,337 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275086337888000, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:46,343 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:46,545 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275086545129984, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:46,551 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:46,752 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275086752315904, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:46,757 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:46,858 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275086858642944, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:46,864 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:47,066 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275087066237952, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:47,072 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:47,274 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275087274161152, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:47,279 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:47,481 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275087481481984, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:47,494 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:47,594 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275087594664192, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:47,601 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:47,803 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275087803548928, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:47,809 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:48,011 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275088011141120, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:48,017 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:48,118 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275088118478080, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:48,124 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:48,325 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275088325690880, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:48,331 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:48,533 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275088533238784, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:48,538 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:48,740 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275088740897792, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:48,747 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:48,851 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275088851365120, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:48,861 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:49,063 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275089063361792, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:49,069 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:49,271 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275089271070976, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:49,276 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:49,478 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275089478749952, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:49,484 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:49,585 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275089585789952, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:49,595 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:49,797 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275089797893888, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:49,803 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:50,005 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275090005166080, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:50,014 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:50,115 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275090115825920, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:50,122 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:50,324 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275090324100864, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:50,329 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:50,531 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275090531902976, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:50,538 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:50,740 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275090740560896, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:50,748 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:50,849 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275090849401856, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:50,857 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:51,059 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275091059524096, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:51,067 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:51,268 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275091268672000, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:51,275 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:51,477 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275091477389056, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:51,482 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:51,582 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275091582742016, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:51,592 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:51,794 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275091793979904, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:51,799 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:52,001 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275092001795072, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:52,008 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:52,109 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275092109662976, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:52,119 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:52,321 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275092321639168, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:52,328 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:52,530 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275092530167040, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:52,537 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:52,739 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275092738972928, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:52,745 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:52,846 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275092846902016, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:52,857 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:53,058 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275093058919936, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:53,064 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:53,266 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275093266248960, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:53,272 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:53,382 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275093382149888, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:53,391 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:53,592 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275093592375040, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:53,598 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:53,799 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275093799171072, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:53,805 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:54,007 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275094007406848, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:54,015 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:54,116 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275094116507904, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:54,130 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:54,332 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275094332022016, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:54,338 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:54,541 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275094541400832, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:54,548 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:54,650 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275094650286080, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:54,663 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:54,866 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275094866297856, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:54,872 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:55,074 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275095074341120, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:55,080 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:55,281 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275095281372160, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:55,287 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:55,389 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275095388987136, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:55,398 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:55,600 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275095600528128, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:55,607 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:55,808 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275095808630016, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:55,814 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:55,915 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275095915534848, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:55,924 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:56,126 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275096126189824, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:56,132 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:56,334 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275096333987840, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:56,339 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:56,542 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275096542046976, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:56,548 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:56,649 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275096649543168, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:56,657 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:56,859 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275096859177216, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:56,865 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:57,067 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275097067084032, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:57,073 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:57,274 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275097274481920, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:57,280 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:57,381 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275097381843968, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:57,388 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:57,589 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275097589776896, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:57,595 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:57,797 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275097797418240, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:57,803 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:58,005 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275098005681920, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:58,011 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:58,112 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275098112220160, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:58,119 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:58,321 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275098321203968, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:58,327 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:58,530 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275098530064128, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:58,536 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:58,636 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275098636899840, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:58,644 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:58,845 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275098845788928, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:58,851 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:59,053 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275099053353984, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:59,059 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:59,261 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275099261184000, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:59,266 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:59,367 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275099367411968, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:59,373 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:59,574 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275099574562048, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:59,580 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:59,781 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275099781716992, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:59,787 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:44:59,988 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275099988935936, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:44:59,994 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:00,095 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275100095257088, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:00,117 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:00,318 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275100318099968, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:00,323 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:00,524 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275100524307968, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:00,530 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:00,633 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275100633410048, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:00,640 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:00,841 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275100841485056, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:00,847 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:01,047 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275101047833856, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:01,052 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:01,253 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275101253815808, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:01,258 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:01,359 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275101359443968, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:01,369 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:01,570 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275101570244096, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:01,575 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:01,776 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275101775991040, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:01,781 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:01,982 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275101982832896, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:01,989 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:02,090 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275102090482944, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:02,098 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:02,300 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275102300525824, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:02,306 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:02,507 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275102507899904, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:02,514 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:02,715 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275102715776000, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:02,721 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:02,822 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275102822853120, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:02,830 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:03,032 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275103032377856, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:03,038 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:03,240 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275103240375040, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:03,247 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:03,354 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275103354803968, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:03,363 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:03,566 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275103566196992, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:03,575 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:03,777 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275103777241088, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:03,784 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:03,899 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275103899249152, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:03,906 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:04,107 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275104107912960, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:04,115 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:04,317 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275104317168896, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:04,324 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:04,525 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275104525889024, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:04,532 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:04,633 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275104633655040, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:04,639 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:04,840 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275104840737024, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:04,846 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:05,047 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275105047607808, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:05,053 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:05,255 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275105255546112, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:05,261 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:05,362 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275105362534144, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:05,368 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:05,570 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275105570377984, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:05,576 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:05,779 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275105779188992, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:05,785 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:05,886 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275105886364928, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:05,896 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:06,098 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275106098547968, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:06,104 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:06,306 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275106306437888, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:06,312 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:06,514 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275106514419200, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:06,520 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:06,621 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275106621246976, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:06,631 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:06,832 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275106832519168, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:06,838 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:07,040 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275107040349952, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:07,045 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:07,247 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275107247021056, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:07,253 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:07,354 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275107354539008, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:07,361 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:07,563 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275107563473920, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:07,569 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:07,771 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275107771249920, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:07,777 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:07,885 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275107885327104, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:07,891 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:08,092 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275108092531968, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:08,097 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:08,298 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275108298912000, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:08,304 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:08,505 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275108505580032, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:08,511 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:08,612 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275108612487168, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:08,618 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:08,820 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275108820430080, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:08,826 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:09,028 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275109028317952, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:09,035 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:09,236 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275109236751104, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:09,243 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:09,343 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275109343682048, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:09,351 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:09,552 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275109552145920, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:09,558 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:09,759 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275109759747072, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:09,765 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:09,967 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275109967699968, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:09,973 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:10,075 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275110075195904, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:10,095 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:10,297 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275110297150976, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:10,302 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:10,504 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275110504226816, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:10,510 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:10,611 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275110611303936, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:10,623 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:10,824 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275110824889856, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:10,831 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:11,032 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275111032617984, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:11,038 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:11,139 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275111139447040, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:11,151 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:11,353 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275111353024000, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:11,359 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:11,561 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275111561167104, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:11,567 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:11,768 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275111768225024, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:11,774 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:11,875 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275111875494912, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:11,887 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:12,089 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275112089369088, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:12,094 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:12,296 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275112296792064, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:12,302 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:12,416 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275112416608000, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:12,422 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:12,624 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275112624388864, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:12,630 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:12,831 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275112831942144, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:12,837 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:13,039 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275113039256064, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:13,045 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:13,146 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275113146441984, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:13,154 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:13,356 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275113356358912, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:13,362 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:13,564 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275113564441856, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:13,570 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:13,772 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275113772322048, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:13,777 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:13,878 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275113878212864, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:13,884 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:14,085 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275114085865984, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:14,092 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:14,294 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275114293953024, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:14,300 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:14,401 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275114401790976, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:14,413 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:14,615 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275114614969856, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:14,620 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:14,821 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275114821728000, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:14,827 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:15,028 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275115028739072, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:15,034 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:15,137 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275115137558016, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:15,150 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:15,351 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275115351757056, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:15,357 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:15,558 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275115558594816, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:15,564 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:15,766 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275115766885888, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:15,773 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:15,874 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275115874597120, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:15,883 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:16,084 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275116084922112, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:16,090 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:16,292 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275116292067072, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:16,298 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:16,499 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275116499887872, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:16,506 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:16,608 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275116607984896, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:16,621 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:16,822 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275116822470912, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:16,829 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:17,031 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275117031102976, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:17,037 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:17,138 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275117138513920, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:17,148 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:17,350 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275117350063104, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:17,356 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:17,557 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275117557673984, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:17,564 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:17,765 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275117765746176, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:17,772 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:17,873 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275117873586944, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:17,882 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:18,084 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275118084070912, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:18,090 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:18,291 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275118291422976, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:18,297 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:18,398 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275118398189056, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:18,409 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:18,610 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275118610519808, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:18,616 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:18,818 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275118818646784, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:18,824 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:19,026 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275119026876928, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:19,032 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:19,133 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275119133814016, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:19,144 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:19,346 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275119346673920, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:19,353 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:19,554 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275119554791936, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:19,561 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:19,668 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275119668124928, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:19,716 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:19,918 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275119918780160, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:19,926 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:20,027 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275120027225856, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:20,033 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:20,234 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275120234492928, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:20,241 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:20,442 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275120442796032, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:20,449 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:20,651 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275120651421184, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:20,657 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:20,758 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275120758415104, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:20,780 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:20,982 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275120982574080, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:20,990 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:21,191 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275121191536896, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:21,198 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:21,301 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275121301392128, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:21,309 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:21,511 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275121511441920, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:21,517 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:21,718 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275121718714112, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:21,726 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:21,927 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275121927630848, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:21,934 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:22,036 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275122035939072, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:22,080 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:22,282 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275122282774016, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:22,305 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:22,406 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275122406178048, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:22,418 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:22,620 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275122620068096, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:22,626 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:22,828 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275122828510976, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:22,834 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:22,934 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275122934832128, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:23,031 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:23,133 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275123132966912, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:23,222 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:23,323 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275123323843072, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:23,412 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:23,513 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275123513668096, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:23,571 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:23,672 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275123672643072, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:23,684 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:23,885 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275123885889024, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:23,892 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:24,093 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275124093795072, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:24,100 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:24,201 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275124201821184, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:24,214 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:24,416 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275124416290048, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:24,422 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:24,624 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275124624325888, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:24,631 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:24,832 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275124832849152, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:24,839 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:24,941 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275124941135872, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:24,955 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:25,156 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275125156347136, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:25,162 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:25,364 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275125364141056, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:25,369 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:25,470 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275125470818048, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:25,481 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:25,683 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275125682970880, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:25,688 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:25,890 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275125890168832, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:25,896 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:26,098 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275126098028032, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:26,103 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:26,204 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275126204463872, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:26,213 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:26,415 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275126415108864, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:26,421 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:26,622 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275126622803968, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:26,629 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:26,730 - DEBUG - [{'measurement': 'time_data_2d_table1', 'time': 1767275126730019072, 'tags': {'position_id': 'BR', 'reader_id': '2d_1', 'tag_spec_id': 1, 'antenna_id': 10}, 'fields': {'detection_tag_1': 'E016240122EF4E48'}}]
+2026-01-01 22:45:26,830 - DEBUG - http://localhost:8086 "POST /write?db=eeeHiveSystemDB&precision=n HTTP/1.1" 204 0
+2026-01-01 22:45:26,830 - INFO - ---------タグ検証終了しました---------
+2026-01-01 22:45:26,830 - INFO - DB processing was cancelled.
+2026-01-01 22:45:26,830 - INFO - DB processing was cancelled.
