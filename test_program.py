@@ -32,7 +32,7 @@ async def main():
     #subprocess.run(cmd, shell=True, executable="/bin/bash")
     
     
-    if 4 <= len(args):
+    if 5 <= len(args):
         if args[1].isnumeric():
             run_time = int(args[1]) #実施時間(分)
         else:
@@ -43,6 +43,18 @@ async def main():
         pra_db = args[3] #ローカルDBに保存確認
         config = conf_handler("_2D/_2D.conf")
         device = _2D(config)
+        if args[4].isnumeric():
+            pra_2d = int(args[4]) #2D台数
+        else:
+            print("2D台数指定パラメータエラー")
+            sys.exit(1) 
+        if pra_2d ==0:
+            print('Error:2D装置の台数指定パラメータエラー')
+            sys.exit(1)
+        elif pra_2d > 4:
+            print('Error:2D装置の台数指定パラメータエラー')
+            sys.exit(1)
+
 
         if db_init == "-DL": # 既存DB削除
             device._set_pra_delete_db(db_init)
@@ -88,6 +100,9 @@ async def main():
         else:
             print('Error:DB保存パラメータエラー')
             sys.exit(1)
+        
+
+        device._set_2d_number(pra_2d)
 
         stop_service("myapi")
 

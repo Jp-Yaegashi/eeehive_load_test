@@ -129,53 +129,54 @@ sh stop_service.sh
 | ^   | `-A`   | 集約部DBに保存          |
 | ^   | `-LA`  | ロギング部＆集約部DBに保存    |
 | ^   | `-AL`  | ロギング部＆集約部DBに保存    |
+| 4   | 数字     | 2D台数(1~4)           |
 
 ---
 
-## 2-3. 既存データを削除せず、10分間ロギング部に保存
+## 2-3. 既存データを削除せず、1台目の2D装置から10分間ロギング部に保存
 
 ```bash
 cd ~/eeehive_load_test
-python3 test_program.py 10 -N -L
+python3 test_program.py 10 -N -L 1
 ```
 
 ---
 
-## 2-4. 既存データを削除せず、10分間集約部に保存
+## 2-4. 既存データを削除せず、1と2台目の2D装置から10分間集約部に保存
 
 ```bash
 cd ~/eeehive_load_test
-python3 test_program.py 10 -N -A
+python3 test_program.py 10 -N -A 2
 ```
 
 ---
 
-## 2-5. 既存データを削除せず、60分間ロギング部 & 集約部に保存
+## 2-5. 既存データを削除せず、1~3台目の2D装置から60分間ロギング部 & 集約部に保存
 
 ```bash
 git reset --hard origin/main
-python3 test_program.py 60 -N -LA
+python3 test_program.py 60 -N -LA 3
 ```
 
 または
 
 ```bash
-python3 test_program.py 60 -N -AL
+python3 test_program.py 60 -N -AL 3
 ```
 
 ---
 
-## 2-6. 既存データ削除後、60分間ロギング部 & 集約部に保存
+## 2-6. 既存データ削除後、1~4台目の2D装置から60分間ロギング部 & 集約部に保存
 
 ```bash
 cd ~/eeehive_load_test
-python3 test_program.py 60 -DAL -LA
+python3 test_program.py 60 -DAL -LA 4
 ```
 
 または
 
 ```bash
-python3 test_program.py 60 -DLA -AL
+python3 test_program.py 60 -DLA -AL 4
 ```
 
 ---

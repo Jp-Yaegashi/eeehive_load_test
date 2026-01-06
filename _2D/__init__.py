@@ -19,6 +19,7 @@ class _2D(device):
        
         self.__delete_db = ''
         self.__save_db = 0
+        self.__2d_number = 0
         
 
 
@@ -81,12 +82,17 @@ class _2D(device):
         #print("------_set_pra_db--------")
         self.__save_db = save_db
         #print(self.__save_db)
+    def _set_2d_number(self,set_2d_number):
+        #print("------_set_pra_db--------")
+        self.__2d_number = set_2d_number
+        #print(self.__save_db)
+    
 
     def _ser_open(self):
         self.__sers.clear()
         self.__position_ids.clear()
         #confファイルの読み込み
-        for i in range(1, 5):
+        for i in range(1, self.__2d_number+1):
             section_name = f"SERIAL{i}" 
             if self._config.getboolean(section_name, "enabled"):
                 port = self._config.get(section_name, "serial_port").strip()
