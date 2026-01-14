@@ -24,7 +24,9 @@ class _2D(device):
 
 
     async def start(self):
-        #print("------start--------")
+        #print("------init_start--------")
+
+        count = 0
        
         if(self.__loggers):
             await self.stop()
@@ -41,9 +43,12 @@ class _2D(device):
         ])
 
         self.__loggers.clear()
+
         for ser, reader_id, position_id in zip(self.__sers, self.__reader_ids, self.__position_ids):
             self.__loggers.append(logger())
-            await self.__loggers[-1].start(functools.partial(self._make_2D_data, ser, reader_id, position_id), DB1, DB2,self.__save_db,self.__delete_db)
+            await self.__loggers[-1].start(functools.partial(self._make_2D_data, ser, reader_id, position_id), DB1, DB2,self.__save_db,self.__delete_db,count)
+            count += 1
+            
         logging.debug(f"start_2D")
         
 

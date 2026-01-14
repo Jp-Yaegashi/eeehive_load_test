@@ -55,6 +55,15 @@ async def main():
             print('Error:2D装置の台数指定パラメータエラー')
             sys.exit(1)
 
+        #組み合わせエラーチェック
+        #ロギング部の既存データ削除 & 集約部DBに保存
+        if db_init == "-DL" and pra_db == "-A":
+            print('Error:パラメータ処理指定エラー')
+            sys.exit(1)
+        elif db_init == "-DA" and pra_db == "-L":#集約部の既存データ削除 & ロギング部DBに保存
+            print('Error:パラメータ処理指定エラー')
+            sys.exit(1)
+
 
         if db_init == "-DL": # 既存DB削除
             device._set_pra_delete_db(db_init)
@@ -100,8 +109,8 @@ async def main():
         else:
             print('Error:DB保存パラメータエラー')
             sys.exit(1)
-        
 
+    
         device._set_2d_number(pra_2d)
 
         stop_service("myapi")

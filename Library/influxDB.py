@@ -50,4 +50,18 @@ class influxDB:
         #print("delete")
         query = 'DELETE FROM ' + self.__measurement
         self.__client.query(query)
+    
+    def count(self):
+        #print("count")
+        query = 'select count(*) FROM ' + self.__measurement
+        result = self.__client.query(query)
+        points = list(result.get_points())
+        if not points:
+            return 0
+        count_value = list(points[0].values())[-1]
+        
+        #print(count_value)
+        return count_value
+
+
 

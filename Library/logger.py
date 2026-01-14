@@ -9,12 +9,13 @@ class logger:
         self.__DB2 = None
         self.task = None
 
-    async def start(self, data_func, DB1, DB2,save_db,delete_db):
+    async def start(self, data_func, DB1, DB2,save_db,delete_db,count):
+        #print("------start--------")
         self.__save_db = save_db
         self.__delete_db = delete_db
+        self.__count = count
         db1_flg = False
         db2_flg = False
-        
         if self.__save_db == "-L": # loggingのみ保存
             self.__DB1 = influxDB(DB1.host, DB1.port, DB1.database, DB1.measurement)
             db1_flg = True
@@ -41,16 +42,16 @@ class logger:
             if self.__delete_db == "-DL":
                 self.__DB1 = influxDB(DB1.host, DB1.port, DB1.database, DB1.measurement)
             elif self.__delete_db == "-DLA":
-                 self.__DB1 = influxDB(DB1.host, DB1.port, DB1.database, DB1.measurement)
-            elif self.__delete_db == "-DAL":
-                 self.__DB1 = influxDB(DB1.host, DB1.port, DB1.database, DB1.measurement)
-        if db2_flg==False:
-            if self.__delete_db == "-DA":
                 self.__DB1 = influxDB(DB1.host, DB1.port, DB1.database, DB1.measurement)
             elif self.__delete_db == "-DAL":
-                 self.__DB1 = influxDB(DB1.host, DB1.port, DB1.database, DB1.measurement)
+                self.__DB1 = influxDB(DB1.host, DB1.port, DB1.database, DB1.measurement)
+        if db2_flg==False:
+            if self.__delete_db == "-DA":
+                self.__DB2 = influxDB(DB2.host, DB2.port, DB2.database, DB2.measurement)
+            elif self.__delete_db == "-DAL":
+                self.__DB2 = influxDB(DB2.host, DB2.port, DB2.database, DB2.measurement)
             elif self.__delete_db == "-DLA":
-                 self.__DB1 = influxDB(DB1.host, DB1.port, DB1.database, DB1.measurement)
+                self.__DB2 = influxDB(DB2.host, DB2.port, DB2.database, DB2.measurement)
 
 
         self.task = asyncio.create_task(self._work(data_func))
@@ -69,16 +70,29 @@ class logger:
 
     async def _work(self, data_func):
         #print("------_work--------")
-        if self.__delete_db == "-DL":
-            self.__DB1.delete()
-        elif self.__delete_db == "-DA":
-            self.__DB2.delete()
-        elif self.__delete_db == "-DAL":
-            self.__DB1.delete()
-            self.__DB2.delete()
-        elif self.__delete_db == "-DLA":
-            self.__DB1.delete()
-            self.__DB2.delete()
+        if self.__count == 0:
+            if self.__delete_db == "-DL":
+                self.__DB1.delete()
+            elif self.__delete_db == "-DA":
+                self.__DB2.delete()
+            elif self.__delete_db == "-DAL":
+                self.__DB1.delete()
+                self.__DB2.delete()
+            elif self.__delete_db == "-DLA":
+                self.__DB1.delete()
+                self.__DB2.delete()
+            
+            if self.__save_db == "-L":# loggingのみ保存
+                print("----処理前ロキングDBデータ件数:"+str(self.__DB1.count()))
+            elif self.__save_db == "-A":# 集約DBのみ保存
+                print("----処理前集約DBデータ件数:"+str(self.__DB2.count()))
+            elif self.__save_db == "-AL":# 両方保存
+                print("----処理前ロキングDBデータ件数:"+str(self.__DB1.count()))
+                print("----処理前集約DBデータ件数:"+str(self.__DB2.count()))
+            elif self.__save_db == "-LA":# 両方保存
+                print("----処理前ロキングDBデータ件数:"+str(self.__DB1.count()))
+                print("----処理前集約DBデータ件数:"+str(self.__DB2.count()))
+
         
         try:
             while True:
@@ -100,7 +114,18 @@ class logger:
                     logging.error(f"Error work: {e}")
                     pass
         except asyncio.CancelledError:
-            logging.info("DB processing was cancelled.")
+            if self.__count == 0:
+                if self.__save_db == "-L":# loggingのみ保存
+                    print("----処理後ロキングDBデータ件数:"+str(self.__DB1.count()))
+                elif self.__save_db == "-A":# 集約DBのみ保存
+                    print("----処理後集約DBデータ件数:"+str(self.__DB2.count()))
+                elif self.__save_db == "-AL":# 両方保存
+                    print("----処理後ロキングDBデータ件数:"+str(self.__DB1.count()))
+                    print("----処理後集約DBデータ件数:"+str(self.__DB2.count()))
+                elif self.__save_db == "-LA":# 両方保存
+                    print("----処理後ロキングDBデータ件数:"+str(self.__DB1.count()))
+                    print("----処理後集約DBデータ件数:"+str(self.__DB2.count()))
+                logging.info("DB processing was cancelled.")
         except Exception as e:
             logging.error(f"Error Exception: {e}")
 
